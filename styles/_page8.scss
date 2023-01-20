@@ -1,0 +1,59 @@
+.page8 {
+    min-height: 100vh;
+    padding: 160px 0;
+    .container {
+        .input {
+            text-align: center;
+            &__txt {
+                margin-bottom: 160px;
+                h6 {
+                    color: $primary-Color;
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: $txt-Color;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: $secon-txt-Color;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            &__email {
+                label {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0;
+
+                    input {
+                        padding: 15px 570px 15px 20px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        border: none;
+                        outline: none;
+                        border: 1px solid #E6E6E6;
+                }
+                    button {
+                        border: 1px solid #E6E6E6;
+                        padding: 16px 20px;
+                        background: $primary-Color;
+                        border: none;
+                        outline: none;
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 700;
+                        border-radius: 0px 5px 5px 0px;
+                }
+                }
+                
+            }
+        }
+    }
+}
